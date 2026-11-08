@@ -1,6 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
-const client = new GoogleGenAI({});
+// Managed agents (environment, environment_id) are v1beta-only; genai 3 defaults to v1.
+const client = new GoogleGenAI({ apiVersion: "v1beta" });
 const agent = "antigravity-preview-09-2026";
 
 // Turn 1: a fresh sandbox. Google runs the agent loop; we read the result.

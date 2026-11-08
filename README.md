@@ -1,6 +1,6 @@
 # gdg-cloud-oslo-2026
 
-Demo code for **Agents, Workflows, Graphs** — GDG Cloud Oslo 2026.
+Demo code for **Anatomy of an AI Agent**, GDG Cloud Oslo 2026.
 
 Everything here runs on [Google ADK](https://github.com/google/adk-js) **2.4**, except `managed-agent`, which calls the [Interactions API](https://aistudio.google.com/docs/interactions-overview) directly through `@google/genai`.
 
