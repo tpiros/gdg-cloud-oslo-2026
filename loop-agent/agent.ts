@@ -13,7 +13,7 @@ import { z } from "zod";
 // either reveals a new letter or costs a life, and there are only six lives.
 const LIVES = 6;
 
-const WORDS = ["oslo", "fjord", "aurora", "brunost", "workflow", "gemini"];
+const WORDS = ["oslo", "fjord", "aurora", "viking", "workflow", "gemini"];
 
 // --- Schemas ---
 
